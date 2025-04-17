@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/RogueLike.dir/src/Bullet.cpp.o"
+  "CMakeFiles/RogueLike.dir/src/Bullet.cpp.o.d"
   "CMakeFiles/RogueLike.dir/src/Button.cpp.o"
   "CMakeFiles/RogueLike.dir/src/Button.cpp.o.d"
+  "CMakeFiles/RogueLike.dir/src/Enemy.cpp.o"
+  "CMakeFiles/RogueLike.dir/src/Enemy.cpp.o.d"
   "CMakeFiles/RogueLike.dir/src/Entity.cpp.o"
   "CMakeFiles/RogueLike.dir/src/Entity.cpp.o.d"
   "CMakeFiles/RogueLike.dir/src/Game.cpp.o"

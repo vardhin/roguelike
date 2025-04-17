@@ -4,6 +4,7 @@
 #include "Enemy.hpp"
 #include "Bullet.hpp"
 #include <SDL2/SDL.h>
+#include <SDL2/SDL_ttf.h>
 #include <vector>
 #include <memory>
 
@@ -21,14 +22,20 @@ private:
     void handleCollisions();
     void cleanup();
     void firePlayerBullet(int mouseX, int mouseY);
+    void renderScore(SDL_Renderer* renderer);
+    void renderPlayerHealth(SDL_Renderer* renderer);
     
     Player mPlayer;
     std::vector<Enemy> mEnemies;
     std::vector<Bullet> mBullets;
+    int mScore;
+    
+    // Font for rendering text
+    TTF_Font* mFont;
     
     // Game settings
-    static constexpr int MAX_ENEMIES = 5;
-    static constexpr float ENEMY_SPAWN_INTERVAL = 3.0f; // seconds
+    static constexpr int MAX_ENEMIES = 10;
+    static constexpr float ENEMY_SPAWN_INTERVAL = 2.0f; // seconds
     
     Uint32 mLastEnemySpawn;
 }; 

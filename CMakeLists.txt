@@ -13,6 +13,8 @@ set(SOURCES
     src/Entity.cpp
     src/Player.cpp
     src/GameplayState.cpp
+    src/Enemy.cpp
+    src/Bullet.cpp
 )
 
 # Specify header files
@@ -24,6 +26,8 @@ set(HEADERS
     include/Entity.hpp
     include/Player.hpp
     include/GameplayState.hpp
+    include/Enemy.hpp
+    include/Bullet.hpp
 )
 
 # Find SDL2 packages

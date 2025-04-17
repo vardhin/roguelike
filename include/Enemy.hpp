@@ -11,9 +11,14 @@ public:
     virtual void render(SDL_Renderer* renderer) override;
     
     void moveTowardsPlayer(float playerX, float playerY, float deltaTime);
+    void renderHealthBar(SDL_Renderer* renderer);
     
     // Constants
     static constexpr int ENEMY_HEALTH = 40;
     static constexpr float ENEMY_SPEED = 100.f;
     static constexpr float ENEMY_RADIUS = 15.f;
+    
+private:
+    SDL_Rect mHealthBar;
+    SDL_Rect mHealthBarBackground;
 }; 

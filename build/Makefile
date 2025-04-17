@@ -129,6 +129,30 @@ RogueLike/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/build
 .PHONY : RogueLike/fast
 
+src/Bullet.o: src/Bullet.cpp.o
+.PHONY : src/Bullet.o
+
+# target to build an object file
+src/Bullet.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/Bullet.cpp.o
+.PHONY : src/Bullet.cpp.o
+
+src/Bullet.i: src/Bullet.cpp.i
+.PHONY : src/Bullet.i
+
+# target to preprocess a source file
+src/Bullet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/Bullet.cpp.i
+.PHONY : src/Bullet.cpp.i
+
+src/Bullet.s: src/Bullet.cpp.s
+.PHONY : src/Bullet.s
+
+# target to generate assembly for a file
+src/Bullet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/Bullet.cpp.s
+.PHONY : src/Bullet.cpp.s
+
 src/Button.o: src/Button.cpp.o
 .PHONY : src/Button.o
 
@@ -152,6 +176,30 @@ src/Button.s: src/Button.cpp.s
 src/Button.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/Button.cpp.s
 .PHONY : src/Button.cpp.s
+
+src/Enemy.o: src/Enemy.cpp.o
+.PHONY : src/Enemy.o
+
+# target to build an object file
+src/Enemy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/Enemy.cpp.o
+.PHONY : src/Enemy.cpp.o
+
+src/Enemy.i: src/Enemy.cpp.i
+.PHONY : src/Enemy.i
+
+# target to preprocess a source file
+src/Enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/Enemy.cpp.i
+.PHONY : src/Enemy.cpp.i
+
+src/Enemy.s: src/Enemy.cpp.s
+.PHONY : src/Enemy.s
+
+# target to generate assembly for a file
+src/Enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/Enemy.cpp.s
+.PHONY : src/Enemy.cpp.s
 
 src/Entity.o: src/Entity.cpp.o
 .PHONY : src/Entity.o
@@ -306,9 +354,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... RogueLike"
+	@echo "... src/Bullet.o"
+	@echo "... src/Bullet.i"
+	@echo "... src/Bullet.s"
 	@echo "... src/Button.o"
 	@echo "... src/Button.i"
 	@echo "... src/Button.s"
+	@echo "... src/Enemy.o"
+	@echo "... src/Enemy.i"
+	@echo "... src/Enemy.s"
 	@echo "... src/Entity.o"
 	@echo "... src/Entity.i"
 	@echo "... src/Entity.s"

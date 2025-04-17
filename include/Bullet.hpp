@@ -11,9 +11,10 @@ public:
     
     bool isActive() const { return mActive; }
     void deactivate() { mActive = false; }
+    float getRadius() const { return mRadius; }
     
     // Constants
-    static constexpr float BULLET_SPEED = 500.f;
+    static constexpr float BULLET_SPEED = 600.f;
     static constexpr float BULLET_RADIUS = 5.f;
     static constexpr int BULLET_DAMAGE = 20;
     static constexpr float MAX_LIFETIME = 2.0f; // seconds

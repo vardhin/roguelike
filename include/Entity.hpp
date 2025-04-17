@@ -14,6 +14,7 @@ public:
     void setPosition(float x, float y) { mX = x; mY = y; }
     
     float getSpeed() const { return mSpeed; }
+    float getRadius() const { return mRadius; }
     
     int getHealth() const { return mHealth; }
     void damage(int amount);
