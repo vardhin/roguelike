@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/vardhin/rogue/include
+CXX_INCLUDES = -I/home/vardhin/roguelike/include -I/usr/include/SDL2 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/webp
 
 CXX_FLAGS = -std=gnu++17
 

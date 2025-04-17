@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vardhin/rogue
+CMAKE_SOURCE_DIR = /home/vardhin/roguelike
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vardhin/rogue/build
+CMAKE_BINARY_DIR = /home/vardhin/roguelike/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RogueLike.dir/depend.make
@@ -69,50 +69,127 @@ include CMakeFiles/RogueLike.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/RogueLike.dir/flags.make
 
-CMakeFiles/RogueLike.dir/src/Game.cpp.o: CMakeFiles/RogueLike.dir/flags.make
-CMakeFiles/RogueLike.dir/src/Game.cpp.o: /home/vardhin/rogue/src/Game.cpp
-CMakeFiles/RogueLike.dir/src/Game.cpp.o: CMakeFiles/RogueLike.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vardhin/rogue/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RogueLike.dir/src/Game.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RogueLike.dir/src/Game.cpp.o -MF CMakeFiles/RogueLike.dir/src/Game.cpp.o.d -o CMakeFiles/RogueLike.dir/src/Game.cpp.o -c /home/vardhin/rogue/src/Game.cpp
-
-CMakeFiles/RogueLike.dir/src/Game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RogueLike.dir/src/Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vardhin/rogue/src/Game.cpp > CMakeFiles/RogueLike.dir/src/Game.cpp.i
-
-CMakeFiles/RogueLike.dir/src/Game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RogueLike.dir/src/Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vardhin/rogue/src/Game.cpp -o CMakeFiles/RogueLike.dir/src/Game.cpp.s
-
 CMakeFiles/RogueLike.dir/src/main.cpp.o: CMakeFiles/RogueLike.dir/flags.make
-CMakeFiles/RogueLike.dir/src/main.cpp.o: /home/vardhin/rogue/src/main.cpp
+CMakeFiles/RogueLike.dir/src/main.cpp.o: /home/vardhin/roguelike/src/main.cpp
 CMakeFiles/RogueLike.dir/src/main.cpp.o: CMakeFiles/RogueLike.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vardhin/rogue/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RogueLike.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RogueLike.dir/src/main.cpp.o -MF CMakeFiles/RogueLike.dir/src/main.cpp.o.d -o CMakeFiles/RogueLike.dir/src/main.cpp.o -c /home/vardhin/rogue/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vardhin/roguelike/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RogueLike.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RogueLike.dir/src/main.cpp.o -MF CMakeFiles/RogueLike.dir/src/main.cpp.o.d -o CMakeFiles/RogueLike.dir/src/main.cpp.o -c /home/vardhin/roguelike/src/main.cpp
 
 CMakeFiles/RogueLike.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RogueLike.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vardhin/rogue/src/main.cpp > CMakeFiles/RogueLike.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vardhin/roguelike/src/main.cpp > CMakeFiles/RogueLike.dir/src/main.cpp.i
 
 CMakeFiles/RogueLike.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RogueLike.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vardhin/rogue/src/main.cpp -o CMakeFiles/RogueLike.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vardhin/roguelike/src/main.cpp -o CMakeFiles/RogueLike.dir/src/main.cpp.s
+
+CMakeFiles/RogueLike.dir/src/Game.cpp.o: CMakeFiles/RogueLike.dir/flags.make
+CMakeFiles/RogueLike.dir/src/Game.cpp.o: /home/vardhin/roguelike/src/Game.cpp
+CMakeFiles/RogueLike.dir/src/Game.cpp.o: CMakeFiles/RogueLike.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vardhin/roguelike/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RogueLike.dir/src/Game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RogueLike.dir/src/Game.cpp.o -MF CMakeFiles/RogueLike.dir/src/Game.cpp.o.d -o CMakeFiles/RogueLike.dir/src/Game.cpp.o -c /home/vardhin/roguelike/src/Game.cpp
+
+CMakeFiles/RogueLike.dir/src/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RogueLike.dir/src/Game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vardhin/roguelike/src/Game.cpp > CMakeFiles/RogueLike.dir/src/Game.cpp.i
+
+CMakeFiles/RogueLike.dir/src/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RogueLike.dir/src/Game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vardhin/roguelike/src/Game.cpp -o CMakeFiles/RogueLike.dir/src/Game.cpp.s
+
+CMakeFiles/RogueLike.dir/src/StartMenu.cpp.o: CMakeFiles/RogueLike.dir/flags.make
+CMakeFiles/RogueLike.dir/src/StartMenu.cpp.o: /home/vardhin/roguelike/src/StartMenu.cpp
+CMakeFiles/RogueLike.dir/src/StartMenu.cpp.o: CMakeFiles/RogueLike.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vardhin/roguelike/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RogueLike.dir/src/StartMenu.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RogueLike.dir/src/StartMenu.cpp.o -MF CMakeFiles/RogueLike.dir/src/StartMenu.cpp.o.d -o CMakeFiles/RogueLike.dir/src/StartMenu.cpp.o -c /home/vardhin/roguelike/src/StartMenu.cpp
+
+CMakeFiles/RogueLike.dir/src/StartMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RogueLike.dir/src/StartMenu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vardhin/roguelike/src/StartMenu.cpp > CMakeFiles/RogueLike.dir/src/StartMenu.cpp.i
+
+CMakeFiles/RogueLike.dir/src/StartMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RogueLike.dir/src/StartMenu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vardhin/roguelike/src/StartMenu.cpp -o CMakeFiles/RogueLike.dir/src/StartMenu.cpp.s
+
+CMakeFiles/RogueLike.dir/src/Button.cpp.o: CMakeFiles/RogueLike.dir/flags.make
+CMakeFiles/RogueLike.dir/src/Button.cpp.o: /home/vardhin/roguelike/src/Button.cpp
+CMakeFiles/RogueLike.dir/src/Button.cpp.o: CMakeFiles/RogueLike.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vardhin/roguelike/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RogueLike.dir/src/Button.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RogueLike.dir/src/Button.cpp.o -MF CMakeFiles/RogueLike.dir/src/Button.cpp.o.d -o CMakeFiles/RogueLike.dir/src/Button.cpp.o -c /home/vardhin/roguelike/src/Button.cpp
+
+CMakeFiles/RogueLike.dir/src/Button.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RogueLike.dir/src/Button.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vardhin/roguelike/src/Button.cpp > CMakeFiles/RogueLike.dir/src/Button.cpp.i
+
+CMakeFiles/RogueLike.dir/src/Button.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RogueLike.dir/src/Button.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vardhin/roguelike/src/Button.cpp -o CMakeFiles/RogueLike.dir/src/Button.cpp.s
+
+CMakeFiles/RogueLike.dir/src/Entity.cpp.o: CMakeFiles/RogueLike.dir/flags.make
+CMakeFiles/RogueLike.dir/src/Entity.cpp.o: /home/vardhin/roguelike/src/Entity.cpp
+CMakeFiles/RogueLike.dir/src/Entity.cpp.o: CMakeFiles/RogueLike.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vardhin/roguelike/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RogueLike.dir/src/Entity.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RogueLike.dir/src/Entity.cpp.o -MF CMakeFiles/RogueLike.dir/src/Entity.cpp.o.d -o CMakeFiles/RogueLike.dir/src/Entity.cpp.o -c /home/vardhin/roguelike/src/Entity.cpp
+
+CMakeFiles/RogueLike.dir/src/Entity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RogueLike.dir/src/Entity.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vardhin/roguelike/src/Entity.cpp > CMakeFiles/RogueLike.dir/src/Entity.cpp.i
+
+CMakeFiles/RogueLike.dir/src/Entity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RogueLike.dir/src/Entity.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vardhin/roguelike/src/Entity.cpp -o CMakeFiles/RogueLike.dir/src/Entity.cpp.s
+
+CMakeFiles/RogueLike.dir/src/Player.cpp.o: CMakeFiles/RogueLike.dir/flags.make
+CMakeFiles/RogueLike.dir/src/Player.cpp.o: /home/vardhin/roguelike/src/Player.cpp
+CMakeFiles/RogueLike.dir/src/Player.cpp.o: CMakeFiles/RogueLike.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vardhin/roguelike/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RogueLike.dir/src/Player.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RogueLike.dir/src/Player.cpp.o -MF CMakeFiles/RogueLike.dir/src/Player.cpp.o.d -o CMakeFiles/RogueLike.dir/src/Player.cpp.o -c /home/vardhin/roguelike/src/Player.cpp
+
+CMakeFiles/RogueLike.dir/src/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RogueLike.dir/src/Player.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vardhin/roguelike/src/Player.cpp > CMakeFiles/RogueLike.dir/src/Player.cpp.i
+
+CMakeFiles/RogueLike.dir/src/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RogueLike.dir/src/Player.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vardhin/roguelike/src/Player.cpp -o CMakeFiles/RogueLike.dir/src/Player.cpp.s
+
+CMakeFiles/RogueLike.dir/src/GameplayState.cpp.o: CMakeFiles/RogueLike.dir/flags.make
+CMakeFiles/RogueLike.dir/src/GameplayState.cpp.o: /home/vardhin/roguelike/src/GameplayState.cpp
+CMakeFiles/RogueLike.dir/src/GameplayState.cpp.o: CMakeFiles/RogueLike.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vardhin/roguelike/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RogueLike.dir/src/GameplayState.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RogueLike.dir/src/GameplayState.cpp.o -MF CMakeFiles/RogueLike.dir/src/GameplayState.cpp.o.d -o CMakeFiles/RogueLike.dir/src/GameplayState.cpp.o -c /home/vardhin/roguelike/src/GameplayState.cpp
+
+CMakeFiles/RogueLike.dir/src/GameplayState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RogueLike.dir/src/GameplayState.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vardhin/roguelike/src/GameplayState.cpp > CMakeFiles/RogueLike.dir/src/GameplayState.cpp.i
+
+CMakeFiles/RogueLike.dir/src/GameplayState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RogueLike.dir/src/GameplayState.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vardhin/roguelike/src/GameplayState.cpp -o CMakeFiles/RogueLike.dir/src/GameplayState.cpp.s
 
 # Object files for target RogueLike
 RogueLike_OBJECTS = \
+"CMakeFiles/RogueLike.dir/src/main.cpp.o" \
 "CMakeFiles/RogueLike.dir/src/Game.cpp.o" \
-"CMakeFiles/RogueLike.dir/src/main.cpp.o"
+"CMakeFiles/RogueLike.dir/src/StartMenu.cpp.o" \
+"CMakeFiles/RogueLike.dir/src/Button.cpp.o" \
+"CMakeFiles/RogueLike.dir/src/Entity.cpp.o" \
+"CMakeFiles/RogueLike.dir/src/Player.cpp.o" \
+"CMakeFiles/RogueLike.dir/src/GameplayState.cpp.o"
 
 # External object files for target RogueLike
 RogueLike_EXTERNAL_OBJECTS =
 
-RogueLike: CMakeFiles/RogueLike.dir/src/Game.cpp.o
 RogueLike: CMakeFiles/RogueLike.dir/src/main.cpp.o
+RogueLike: CMakeFiles/RogueLike.dir/src/Game.cpp.o
+RogueLike: CMakeFiles/RogueLike.dir/src/StartMenu.cpp.o
+RogueLike: CMakeFiles/RogueLike.dir/src/Button.cpp.o
+RogueLike: CMakeFiles/RogueLike.dir/src/Entity.cpp.o
+RogueLike: CMakeFiles/RogueLike.dir/src/Player.cpp.o
+RogueLike: CMakeFiles/RogueLike.dir/src/GameplayState.cpp.o
 RogueLike: CMakeFiles/RogueLike.dir/build.make
-RogueLike: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.6.1
-RogueLike: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.6.1
-RogueLike: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.6.1
 RogueLike: CMakeFiles/RogueLike.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vardhin/rogue/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable RogueLike"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vardhin/roguelike/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable RogueLike"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RogueLike.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +201,6 @@ CMakeFiles/RogueLike.dir/clean:
 .PHONY : CMakeFiles/RogueLike.dir/clean
 
 CMakeFiles/RogueLike.dir/depend:
-	cd /home/vardhin/rogue/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vardhin/rogue /home/vardhin/rogue /home/vardhin/rogue/build /home/vardhin/rogue/build /home/vardhin/rogue/build/CMakeFiles/RogueLike.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vardhin/roguelike/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vardhin/roguelike /home/vardhin/roguelike /home/vardhin/roguelike/build /home/vardhin/roguelike/build /home/vardhin/roguelike/build/CMakeFiles/RogueLike.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/RogueLike.dir/depend
 

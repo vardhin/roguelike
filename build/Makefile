@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vardhin/rogue
+CMAKE_SOURCE_DIR = /home/vardhin/roguelike
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vardhin/rogue/build
+CMAKE_BINARY_DIR = /home/vardhin/roguelike/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vardhin/rogue/build/CMakeFiles /home/vardhin/rogue/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vardhin/roguelike/build/CMakeFiles /home/vardhin/roguelike/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vardhin/rogue/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vardhin/roguelike/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,54 @@ RogueLike/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/build
 .PHONY : RogueLike/fast
 
+src/Button.o: src/Button.cpp.o
+.PHONY : src/Button.o
+
+# target to build an object file
+src/Button.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/Button.cpp.o
+.PHONY : src/Button.cpp.o
+
+src/Button.i: src/Button.cpp.i
+.PHONY : src/Button.i
+
+# target to preprocess a source file
+src/Button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/Button.cpp.i
+.PHONY : src/Button.cpp.i
+
+src/Button.s: src/Button.cpp.s
+.PHONY : src/Button.s
+
+# target to generate assembly for a file
+src/Button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/Button.cpp.s
+.PHONY : src/Button.cpp.s
+
+src/Entity.o: src/Entity.cpp.o
+.PHONY : src/Entity.o
+
+# target to build an object file
+src/Entity.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/Entity.cpp.o
+.PHONY : src/Entity.cpp.o
+
+src/Entity.i: src/Entity.cpp.i
+.PHONY : src/Entity.i
+
+# target to preprocess a source file
+src/Entity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/Entity.cpp.i
+.PHONY : src/Entity.cpp.i
+
+src/Entity.s: src/Entity.cpp.s
+.PHONY : src/Entity.s
+
+# target to generate assembly for a file
+src/Entity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/Entity.cpp.s
+.PHONY : src/Entity.cpp.s
+
 src/Game.o: src/Game.cpp.o
 .PHONY : src/Game.o
 
@@ -152,6 +200,78 @@ src/Game.s: src/Game.cpp.s
 src/Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
+
+src/GameplayState.o: src/GameplayState.cpp.o
+.PHONY : src/GameplayState.o
+
+# target to build an object file
+src/GameplayState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/GameplayState.cpp.o
+.PHONY : src/GameplayState.cpp.o
+
+src/GameplayState.i: src/GameplayState.cpp.i
+.PHONY : src/GameplayState.i
+
+# target to preprocess a source file
+src/GameplayState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/GameplayState.cpp.i
+.PHONY : src/GameplayState.cpp.i
+
+src/GameplayState.s: src/GameplayState.cpp.s
+.PHONY : src/GameplayState.s
+
+# target to generate assembly for a file
+src/GameplayState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/GameplayState.cpp.s
+.PHONY : src/GameplayState.cpp.s
+
+src/Player.o: src/Player.cpp.o
+.PHONY : src/Player.o
+
+# target to build an object file
+src/Player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/Player.cpp.o
+.PHONY : src/Player.cpp.o
+
+src/Player.i: src/Player.cpp.i
+.PHONY : src/Player.i
+
+# target to preprocess a source file
+src/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/Player.cpp.i
+.PHONY : src/Player.cpp.i
+
+src/Player.s: src/Player.cpp.s
+.PHONY : src/Player.s
+
+# target to generate assembly for a file
+src/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/Player.cpp.s
+.PHONY : src/Player.cpp.s
+
+src/StartMenu.o: src/StartMenu.cpp.o
+.PHONY : src/StartMenu.o
+
+# target to build an object file
+src/StartMenu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/StartMenu.cpp.o
+.PHONY : src/StartMenu.cpp.o
+
+src/StartMenu.i: src/StartMenu.cpp.i
+.PHONY : src/StartMenu.i
+
+# target to preprocess a source file
+src/StartMenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/StartMenu.cpp.i
+.PHONY : src/StartMenu.cpp.i
+
+src/StartMenu.s: src/StartMenu.cpp.s
+.PHONY : src/StartMenu.s
+
+# target to generate assembly for a file
+src/StartMenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RogueLike.dir/build.make CMakeFiles/RogueLike.dir/src/StartMenu.cpp.s
+.PHONY : src/StartMenu.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -186,9 +306,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... RogueLike"
+	@echo "... src/Button.o"
+	@echo "... src/Button.i"
+	@echo "... src/Button.s"
+	@echo "... src/Entity.o"
+	@echo "... src/Entity.i"
+	@echo "... src/Entity.s"
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"
+	@echo "... src/GameplayState.o"
+	@echo "... src/GameplayState.i"
+	@echo "... src/GameplayState.s"
+	@echo "... src/Player.o"
+	@echo "... src/Player.i"
+	@echo "... src/Player.s"
+	@echo "... src/StartMenu.o"
+	@echo "... src/StartMenu.i"
+	@echo "... src/StartMenu.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
