@@ -1,0 +1,3 @@
+/home/vardhin/rogue/build/CMakeFiles/RogueLike.dir
+/home/vardhin/rogue/build/CMakeFiles/edit_cache.dir
+/home/vardhin/rogue/build/CMakeFiles/rebuild_cache.dir
